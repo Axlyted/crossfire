@@ -26,8 +26,13 @@ class Human:
         "MP : " + str(self.MP) + "\n")
 
 class Warrior(Human):
+
     def __init__(self):
-        pass
-    pass
+        self.damage = self.strength + 26
+
+    def sword_dancing(self, crt=1):
+        self.sword_dancing =  self.strength + self.Dextirity + crt
+    
+    
         
     
